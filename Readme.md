@@ -1,6 +1,6 @@
 # Ravindra K R
 
-Platform engineer. I run Kubernetes for robots, CI and ML pipelines, and I fix the things that break along the way in the open-source tools we depend on.
+Platform engineer across DevOps, MLOps and AIOps. I run Kubernetes for a robot fleet, the CI and GPU platform behind it, and the ML training and inference pipelines on top, and I fix what breaks along the way in the open-source tools we depend on.
 
 **Golden Kubestronaut** (every CNCF and Linux Foundation cloud-native certification) · Terraform Associate · LFCS
 
@@ -18,8 +18,10 @@ Open work in review across Argo CD, Kueue, Tempo, external-secrets, actions-runn
 ## What I work on
 
 - **Kubernetes at the edge**: a fleet of robots running k3s, managed with Argo CD, Tailscale and Kyverno; observability with Prometheus, Loki and Tempo.
-- **CI and ML platform on EKS**: GitHub Actions runners on Karpenter spot capacity, Argo Workflows and Kueue for GPU batch jobs, MLflow, Slurm on Kubernetes.
-- **Self-hosted coding agents**: an open-weight model served with vLLM, a plugin-based agent harness, and a mechanical gate between the model and `git push`. Write-up coming.
+- **MLOps on EKS**: GPU batch and distributed training with Kueue, MultiKueue and Slurm on Kubernetes; Argo Workflows for data and inference pipelines; MLflow for experiment tracking; Karpenter spot capacity for GPUs; KubeRay pilots.
+- **CI platform**: GitHub Actions runners on EKS with Karpenter, container build caches and registries, benchmark and GPU test suites.
+- **AIOps**: LLM agents wired into the operations loop, from incident triage against Prometheus, Loki and Tempo to unattended code changes behind mechanical gates.
+- **Self-hosted coding agents**: an open-weight model served with vLLM, a plugin-based agent harness, and a nine-check gate between the model and `git push`. Write-up coming.
 
 ## Certifications
 
