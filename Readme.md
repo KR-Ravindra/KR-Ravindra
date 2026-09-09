@@ -29,9 +29,3 @@ All verifiable on [Credly](https://www.credly.com/users/kathi-raja-ravindra/badg
 - **AWS**: Solutions Architect Associate, Developer Associate, Cloud Practitioner.
 - **HashiCorp**: Terraform Associate (003).
 - **Isovalent**: Lab Champion (30 labs) across Cilium, Hubble, Tetragon and eBPF.
-
-## Elsewhere
-
-[mutate-me](https://github.com/KR-Ravindra/mutate-me), a Kubernetes mutating admission webhook in Go · [helm-charts](https://github.com/KR-Ravindra/helm-charts) · [civic-guardian](https://github.com/KR-Ravindra/civic-guardian)
-
-<img src="github-metrics.svg" alt="GitHub activity" width="100%">
