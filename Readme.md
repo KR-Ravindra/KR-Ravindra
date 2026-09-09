@@ -2,7 +2,7 @@
 
 Platform engineer across DevOps, MLOps and AIOps. I run Kubernetes for a robot fleet, the CI and GPU platform behind it, and the ML training and inference pipelines on top, and I fix what breaks along the way in the open-source tools we depend on.
 
-**Golden Kubestronaut** (every CNCF and Linux Foundation cloud-native certification) · Terraform Associate · LFCS
+**Golden Kubestronaut** (every CNCF and Linux Foundation cloud-native certification) · **CNPE** Certified Cloud Native Platform Engineer · AWS Solutions Architect and Developer Associate
 
 ## Upstream contributions
 
@@ -25,7 +25,12 @@ Open work in review across Argo CD, Kueue, Tempo, external-secrets, actions-runn
 
 ## Certifications
 
-CKA · CKAD · CKS · KCNA · KCSA · PCA · OTCA · ICA · CCA · CAPA · CGOA · CBA · KCA · HashiCorp Terraform Associate · LFCS
+All verifiable on [Credly](https://www.credly.com/users/kathi-raja-ravindra/badges).
+
+- **Linux Foundation / CNCF**: CNPE (Certified Cloud Native Platform Engineer), CNPA, CKA, CKAD, CKS, KCNA, KCSA, PCA, OTCA, ICA, CCA, CAPA, CGOA, CBA, KCA, LFCS. Golden Kubestronaut, April 2025.
+- **AWS**: Solutions Architect Associate, Developer Associate, Cloud Practitioner.
+- **HashiCorp**: Terraform Associate (003).
+- **Isovalent**: Lab Champion (30 labs) across Cilium, Hubble, Tetragon and eBPF.
 
 ## Elsewhere
 
