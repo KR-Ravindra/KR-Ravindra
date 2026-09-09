@@ -10,10 +10,14 @@ Bugs found while operating these projects in production, fixed with a regression
 
 | Project | Change | Status |
 |---|---|---|
+| [Kubernetes security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator/pull/3422) | operator and webhook run as non-root with all Linux capabilities dropped, with a render test that pins it | merged |
 | [cert-manager](https://github.com/cert-manager/cert-manager/pull/9303) | certificate-shim no longer mutates the informer cache's labels; backported to [1.21](https://github.com/cert-manager/cert-manager/pull/9314) and [1.20](https://github.com/cert-manager/cert-manager/pull/9315) at the maintainers' request | merged |
+| [actions-runner-controller](https://github.com/actions/actions-runner-controller/pull/4626) | default and per-controller `max-concurrent-reconciles` flags for the GitHub Actions runner controller | merged |
+| [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox/pull/890) | ROS 2 Humble backport of the `save_map` name validation that closed a shell-injection path | merged |
 | [rclnodejs](https://github.com/RobotWebTools/rclnodejs/pull/1595) | interrupted ROS 2 message generation no longer leaves a partial `generated/` tree that `init()` treats as complete | merged |
+| [goreleaser](https://github.com/goreleaser/goreleaser/pull/7127) | git tag parsing no longer breaks when the user's gitconfig sets `column.ui` | merged |
 
-Open work in review across Argo CD, Kueue, Tempo, external-secrets, actions-runner-controller, aws-load-balancer-controller and others: [all pull requests](https://github.com/pulls?q=is%3Apr+author%3AKR-Ravindra+archived%3Afalse+sort%3Aupdated-desc) · [issues filed](https://github.com/issues?q=is%3Aissue+author%3AKR-Ravindra+archived%3Afalse+sort%3Acreated-desc)
+Open work in review across Kubernetes, Argo CD, Kueue, Tempo, linkerd, Harbor, kops, aws-load-balancer-controller and others: [all pull requests](https://github.com/pulls?q=is%3Apr+author%3AKR-Ravindra+archived%3Afalse+sort%3Aupdated-desc) · [issues filed](https://github.com/issues?q=is%3Aissue+author%3AKR-Ravindra+archived%3Afalse+sort%3Acreated-desc)
 
 ## What I work on
 
