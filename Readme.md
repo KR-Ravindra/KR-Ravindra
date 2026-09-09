@@ -1,6 +1,6 @@
 # Ravindra K R
 
-Platform engineer across DevOps, MLOps and AIOps. I run Kubernetes for a fleet of robots, the CI and GPU platform behind it, and the ML training and inference pipelines on top, and I fix what breaks along the way in the open-source tools we depend on.
+**DevOps · MLOps · AIOps platform engineer.** I run Kubernetes for a fleet of robots, the CI and GPU platform behind it, and the ML training and inference pipelines on top, and I fix what breaks along the way in the open-source tools we depend on.
 
 **Golden Kubestronaut** (every CNCF and Linux Foundation cloud-native certification) · **CNPE** Certified Cloud Native Platform Engineer · AWS Solutions Architect and Developer Associate
 
