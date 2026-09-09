@@ -21,11 +21,4 @@ Open work in review across Argo CD, Kueue, Tempo, external-secrets, actions-runn
 - **CI platform**: GitHub Actions runners on EKS with Karpenter, container build caches and registries, benchmark and GPU test suites.
 - **AIOps**: LLM agents in the operations loop, from incident triage against Prometheus, Loki and Tempo to code changes that only land after mechanical checks.
 
-## Certifications
-
-All verifiable on [Credly](https://www.credly.com/users/kathi-raja-ravindra/badges).
-
-- **Linux Foundation / CNCF**: CNPE (Certified Cloud Native Platform Engineer), CNPA, CKA, CKAD, CKS, KCNA, KCSA, PCA, OTCA, ICA, CCA, CAPA, CGOA, CBA, KCA, LFCS. Golden Kubestronaut, April 2025.
-- **AWS**: Solutions Architect Associate, Developer Associate, Cloud Practitioner.
-- **HashiCorp**: Terraform Associate (003).
-- **Isovalent**: Lab Champion (30 labs) across Cilium, Hubble, Tetragon and eBPF.
+More on [Credly](https://www.credly.com/users/kathi-raja-ravindra/badges).
