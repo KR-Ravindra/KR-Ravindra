@@ -6,15 +6,15 @@
 
 ## Open source
 
-Pull requests merged into projects I operate in production, each fixing something I hit there, with a regression test where one fit. This section is generated from the GitHub API and refreshed every six hours, so it is the record rather than a summary.
+Contributions to the projects I operate in production, each fixing something I hit there. This section is generated from the GitHub API and refreshed every six hours.
 
 <!-- oss:start -->
-**12 merged** in [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) · [argo-cd](https://github.com/argoproj/argo-cd) · [kops](https://github.com/kubernetes/kops) · [goreleaser](https://github.com/goreleaser/goreleaser) · [cert-manager](https://github.com/cert-manager/cert-manager) · [actions-runner-controller](https://github.com/actions/actions-runner-controller) · [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) · [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) · [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) · [rclnodejs](https://github.com/RobotWebTools/rclnodejs)
+[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) ★127.4k · [argo-cd](https://github.com/argoproj/argo-cd) ★24.1k · [kops](https://github.com/kubernetes/kops) ★16.7k · [goreleaser](https://github.com/goreleaser/goreleaser) ★16k · [cert-manager](https://github.com/cert-manager/cert-manager) ★14.1k · [actions-runner-controller](https://github.com/actions/actions-runner-controller) ★6.5k · [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) ★2.6k · [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) ★1.8k · [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) ★870 · [rclnodejs](https://github.com/RobotWebTools/rclnodejs) ★448
 
 <details>
-<summary>Every merged change</summary>
+<summary>All contributions</summary>
 
-| Merged | Project | Change |
+| Date | Project | Contribution |
 |---|---|---|
 | 2026-09-12 | [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | [Surface TargetAllocator lookup and build errors on the collector CR](https://github.com/open-telemetry/opentelemetry-operator/pull/5567) |
 | 2026-09-11 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | [Fix ResourceFieldSelector.Divisor doc: unset or 0 means unscaled](https://github.com/kubernetes/kubernetes/pull/141997) |
@@ -29,9 +29,7 @@ Pull requests merged into projects I operate in production, each fixing somethin
 
 </details>
 
-[49 pull requests in review](https://github.com/pulls?q=is%3Apr+author%3AKR-Ravindra+archived%3Afalse+sort%3Aupdated-desc) · [28 issues filed](https://github.com/issues?q=is%3Aissue+author%3AKR-Ravindra+archived%3Afalse+sort%3Acreated-desc)
-
-<sub>Generated from the GitHub API on 2026-09-12 19:11 UTC; counts pull requests merged since 2025-01-01 into repositories with 300+ stars.</sub>
+<sub>Generated from the GitHub API on 2026-09-12 19:12 UTC: pull requests accepted since 2025-01-01 into repositories with 300+ stars.</sub>
 <!-- oss:end -->
 
 ## What I work on

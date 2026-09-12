@@ -97,32 +97,30 @@ def main():
         rows_data.append((max(p["closed_at"] for p in ps), f, title, main["html_url"], extra))
     rows_data.sort(key=lambda r: r[0], reverse=True)
 
-    head = " · ".join(f"[{pname(f)}](https://github.com/{f})" for f in projects)
+    def stars(n):
+        return f"{n/1000:.1f}k".replace(".0k", "k") if n >= 1000 else str(n)
+
+    head = " · ".join(
+        f"[{pname(f)}](https://github.com/{f}) ★{stars(repos[f]['stargazers_count'])}" for f in projects)
     rows = "\n".join(
         f"| {d[:10]} | [{pname(f)}](https://github.com/{f}) | [{title}]({url}){extra} |"
         for d, f, title, url, extra in rows_data
     )
-    open_prs = search_count(f"is:pr author:{USER} is:open -user:{USER}")
-    issues = search_count(f"is:issue author:{USER} -user:{USER}")
-    prs_url = f"https://github.com/pulls?q={urllib.parse.quote_plus(f'is:pr author:{USER} archived:false sort:updated-desc')}"
-    iss_url = f"https://github.com/issues?q={urllib.parse.quote_plus(f'is:issue author:{USER} archived:false sort:created-desc')}"
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     section = f"""{START}
-**{len(keep)} merged** in {head}
+{head}
 
 <details>
-<summary>Every merged change</summary>
+<summary>All contributions</summary>
 
-| Merged | Project | Change |
+| Date | Project | Contribution |
 |---|---|---|
 {rows}
 
 </details>
 
-[{open_prs} pull requests in review]({prs_url}) · [{issues} issues filed]({iss_url})
-
-<sub>Generated from the GitHub API on {now}; counts pull requests merged since {SINCE} into repositories with {MIN_STARS}+ stars.</sub>
+<sub>Generated from the GitHub API on {now}: pull requests accepted since {SINCE} into repositories with {MIN_STARS}+ stars.</sub>
 {END}"""
 
     text = open(README, encoding="utf-8").read()
@@ -131,7 +129,7 @@ def main():
     new = text[: text.index(START)] + section + text[text.index(END) + len(END):]
     if new != text:
         open(README, "w", encoding="utf-8").write(new)
-        print(f"updated: {len(keep)} merged PRs across {len(projects)} projects, {open_prs} open, {issues} issues")
+        print(f"updated: {len(keep)} contributions across {len(projects)} projects")
     else:
         print("no change")
 
