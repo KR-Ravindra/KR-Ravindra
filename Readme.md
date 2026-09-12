@@ -6,7 +6,7 @@
 
 ## Open source
 
-Contributions to the projects I operate in production, each fixing something I hit there. This section is generated from the GitHub API and refreshed every six hours.
+Contributions to the projects I operate in production, each fixing something I hit there.
 
 <!-- oss:start -->
 [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) ⭐ 127.4k · [argo-cd](https://github.com/argoproj/argo-cd) ⭐ 24.1k · [kops](https://github.com/kubernetes/kops) ⭐ 16.7k · [goreleaser](https://github.com/goreleaser/goreleaser) ⭐ 16k · [cert-manager](https://github.com/cert-manager/cert-manager) ⭐ 14.1k · [actions-runner-controller](https://github.com/actions/actions-runner-controller) ⭐ 6.5k · [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) ⭐ 2.6k · [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) ⭐ 1.8k · [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) ⭐ 870 · [rclnodejs](https://github.com/RobotWebTools/rclnodejs) ⭐ 448
