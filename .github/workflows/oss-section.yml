@@ -1,0 +1,33 @@
+name: Refresh open-source section
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/oss_section.py, .github/workflows/oss-section.yml]
+permissions:
+  contents: write
+concurrency:
+  group: oss-section
+  cancel-in-progress: true
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OSS_USER: ${{ github.repository_owner }}
+          OSS_MIN_STARS: "300"
+          OSS_SINCE: "2025-01-01"
+        run: python3 scripts/oss_section.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Readme.md
+          git diff --cached --quiet && exit 0
+          git commit -m "oss: refresh merged contributions [skip ci]"
+          git push

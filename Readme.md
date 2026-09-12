@@ -4,20 +4,35 @@
 
 **Golden Kubestronaut** (every CNCF and Linux Foundation cloud-native certification) 
 
-## Upstream contributions
+## Open source
 
-Bugs found while operating these projects in production, fixed with a regression test, and merged upstream.
+Pull requests merged into projects I operate in production, each fixing something I hit there, with a regression test where one fit. This section is generated from the GitHub API and refreshed every six hours, so it is the record rather than a summary.
 
-| Project | Change | Status |
+<!-- oss:start -->
+**12 merged** in [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) · [argo-cd](https://github.com/argoproj/argo-cd) · [kops](https://github.com/kubernetes/kops) · [goreleaser](https://github.com/goreleaser/goreleaser) · [cert-manager](https://github.com/cert-manager/cert-manager) · [actions-runner-controller](https://github.com/actions/actions-runner-controller) · [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) · [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) · [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) · [rclnodejs](https://github.com/RobotWebTools/rclnodejs)
+
+<details>
+<summary>Every merged change</summary>
+
+| Merged | Project | Change |
 |---|---|---|
-| [Kubernetes security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator/pull/3422) | operator and webhook run as non-root with all Linux capabilities dropped, with a render test that pins it | merged |
-| [cert-manager](https://github.com/cert-manager/cert-manager/pull/9303) | certificate-shim no longer mutates the informer cache's labels; backported to [1.21](https://github.com/cert-manager/cert-manager/pull/9314) and [1.20](https://github.com/cert-manager/cert-manager/pull/9315) at the maintainers' request | merged |
-| [actions-runner-controller](https://github.com/actions/actions-runner-controller/pull/4626) | default and per-controller `max-concurrent-reconciles` flags for the GitHub Actions runner controller | merged |
-| [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox/pull/890) | ROS 2 Humble backport of the `save_map` name validation that closed a shell-injection path | merged |
-| [rclnodejs](https://github.com/RobotWebTools/rclnodejs/pull/1595) | interrupted ROS 2 message generation no longer leaves a partial `generated/` tree that `init()` treats as complete | merged |
-| [goreleaser](https://github.com/goreleaser/goreleaser/pull/7127) | git tag parsing no longer breaks when the user's gitconfig sets `column.ui` | merged |
+| 2026-09-12 | [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | [Surface TargetAllocator lookup and build errors on the collector CR](https://github.com/open-telemetry/opentelemetry-operator/pull/5567) |
+| 2026-09-11 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | [Fix ResourceFieldSelector.Divisor doc: unset or 0 means unscaled](https://github.com/kubernetes/kubernetes/pull/141997) |
+| 2026-09-11 | [argo-cd](https://github.com/argoproj/argo-cd) | [Do not pass --force to server-side apply](https://github.com/argoproj/argo-cd/pull/29626) |
+| 2026-09-11 | [kops](https://github.com/kubernetes/kops) | [Cert-manager: add feature gate options for webhook and cainjector](https://github.com/kubernetes/kops/pull/18787) |
+| 2026-09-09 | [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) | [Validate save_map name against shell injection](https://github.com/SteveMacenski/slam_toolbox/pull/890) |
+| 2026-09-09 | [goreleaser](https://github.com/goreleaser/goreleaser) | [Force column.ui=never so tag output is not columnized](https://github.com/goreleaser/goreleaser/pull/7127) |
+| 2026-09-09 | [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | [Harden operator and webhook securityContext: runAsNonRoot, drop ALL](https://github.com/kubernetes-sigs/security-profiles-operator/pull/3422) |
+| 2026-09-09 | [actions-runner-controller](https://github.com/actions/actions-runner-controller) | [Add default and per-controller max-concurrent-reconciles flags](https://github.com/actions/actions-runner-controller/pull/4626) |
+| 2026-09-09 | [cert-manager](https://github.com/cert-manager/cert-manager) | [Certificate-shim: do not mutate the cached object's labels](https://github.com/cert-manager/cert-manager/pull/9303); backported to [1.20](https://github.com/cert-manager/cert-manager/pull/9315), [1.21](https://github.com/cert-manager/cert-manager/pull/9314) |
+| 2026-09-09 | [rclnodejs](https://github.com/RobotWebTools/rclnodejs) | [Write generated/generator.json only after message generation completes](https://github.com/RobotWebTools/rclnodejs/pull/1595) |
 
-Open work in review across Kubernetes, Argo CD, Kueue, Tempo, linkerd, Harbor, kops, aws-load-balancer-controller and others: [all pull requests](https://github.com/pulls?q=is%3Apr+author%3AKR-Ravindra+archived%3Afalse+sort%3Aupdated-desc) · [issues filed](https://github.com/issues?q=is%3Aissue+author%3AKR-Ravindra+archived%3Afalse+sort%3Acreated-desc)
+</details>
+
+[49 pull requests in review](https://github.com/pulls?q=is%3Apr+author%3AKR-Ravindra+archived%3Afalse+sort%3Aupdated-desc) · [28 issues filed](https://github.com/issues?q=is%3Aissue+author%3AKR-Ravindra+archived%3Afalse+sort%3Acreated-desc)
+
+<sub>Generated from the GitHub API on 2026-09-12 19:07 UTC; counts pull requests merged since 2025-01-01 into repositories with 300+ stars.</sub>
+<!-- oss:end -->
 
 ## What I work on
 
