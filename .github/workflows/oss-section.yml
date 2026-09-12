@@ -4,7 +4,7 @@ on:
     - cron: "17 */6 * * *"   # every 6 hours
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [master]
     paths: [scripts/oss_section.py, .github/workflows/oss-section.yml]
 permissions:
   contents: write
