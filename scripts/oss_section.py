@@ -101,7 +101,7 @@ def main():
         return f"{n/1000:.1f}k".replace(".0k", "k") if n >= 1000 else str(n)
 
     head = " · ".join(
-        f"[{pname(f)}](https://github.com/{f}) ★{stars(repos[f]['stargazers_count'])}" for f in projects)
+        f"[{pname(f)}](https://github.com/{f}) ⭐ {stars(repos[f]['stargazers_count'])}" for f in projects)
     rows = "\n".join(
         f"| {d[:10]} | [{pname(f)}](https://github.com/{f}) | [{title}]({url}){extra} |"
         for d, f, title, url, extra in rows_data
