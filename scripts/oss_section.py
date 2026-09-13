@@ -111,22 +111,23 @@ def build_section(prs, repos, now):
             extra = "; backported to " + ", ".join(
                 f"[{md_escape(backport_label(p['title']) or '#' + str(p['number']))}]({p['html_url']})" for p in ports)
         rows_data.append((max(p["closed_at"] for p in ps), f, md_escape(title), main["html_url"], extra))
-    rows_data.sort(key=lambda r: (r[0], r[1]), reverse=True)
-    rows = "\n".join(f"| {d[:10]} | [{pname(f)}](https://github.com/{f}) | [{title}]({url}){extra} |"
-                     for d, f, title, url, extra in rows_data)
+    # order by project prominence (stars), then title; no dates anywhere in the section
+    rows_data.sort(key=lambda r: (-repos[r[1]]["stargazers_count"], r[2]))
+    rows = "\n".join(f"| [{pname(f)}](https://github.com/{f}) | [{title}]({url}){extra} |"
+                     for _d, f, title, url, extra in rows_data)
     return len(keep), len(projects), f"""{START}
 {head}
 
 <details>
 <summary>All contributions</summary>
 
-| Date | Project | Contribution |
-|---|---|---|
+| Project | Contribution |
+|---|---|
 {rows}
 
 </details>
 
-<sub>Generated from the GitHub API on {now}: pull requests accepted since {SINCE} into repositories with {MIN_STARS}+ stars.</sub>
+<sub>Generated from the GitHub API: pull requests accepted into repositories with {MIN_STARS}+ stars.</sub>
 {END}"""
 
 
@@ -141,14 +142,13 @@ def main():
                 print(f"skipping {full}: HTTP {e.code}", file=sys.stderr)
                 continue
             raise
-    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    n_prs, n_projects, section = build_section(prs, repos, now)
+    n_prs, n_projects, section = build_section(prs, repos, None)
 
     text = open(README, encoding="utf-8").read()
     if START not in text or END not in text or text.index(START) > text.index(END):
         sys.exit(f"markers {START} / {END} not found in order in {README}")
     old = text[text.index(START): text.index(END) + len(END)]
-    if STAMP_RE.sub("", old) == STAMP_RE.sub("", section):
+    if old == section:
         print(f"no change ({n_prs} contributions across {n_projects} projects)")
         return
     new = text[: text.index(START)] + section + text[text.index(END) + len(END):]

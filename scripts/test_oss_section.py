@@ -55,6 +55,11 @@ class T(unittest.TestCase):
         for w in ("merged", "in review", "issues filed"):
             self.assertNotIn(w, self.section.lower())
 
+    def test_no_dates_in_section(self):
+        import re
+        self.assertIsNone(re.search(r"\b20\d\d-\d\d-\d\d\b", self.section))
+        self.assertNotIn("| Date |", self.section)
+
     def test_idempotent_and_timestamp_ignored(self):
         with tempfile.TemporaryDirectory() as d:
             path = os.path.join(d, "Readme.md")
@@ -68,7 +73,7 @@ class T(unittest.TestCase):
             first = open(path).read()
             self.assertTrue(first.startswith("# X\n\nintro\n\n<!-- oss:start -->") and first.endswith("<!-- oss:end -->\n\n## tail\n"))
             out = io.StringIO()
-            with contextlib.redirect_stdout(out): m.main()   # timestamp differs, content same
+            with contextlib.redirect_stdout(out): m.main()   # second run, content same
             self.assertIn("no change", out.getvalue())
             self.assertEqual(open(path).read(), first)
 
