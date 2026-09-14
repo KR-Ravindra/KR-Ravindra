@@ -9,7 +9,7 @@
 Contributions to the projects I operate in production, each fixing something I hit there.
 
 <!-- oss:start -->
-[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) ⭐ 127.7k · [argo-cd](https://github.com/argoproj/argo-cd) ⭐ 24.1k · [kops](https://github.com/kubernetes/kops) ⭐ 16.7k · [goreleaser](https://github.com/goreleaser/goreleaser) ⭐ 16k · [cert-manager](https://github.com/cert-manager/cert-manager) ⭐ 14.1k · [actions-runner-controller](https://github.com/actions/actions-runner-controller) ⭐ 6.5k · [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) ⭐ 2.6k · [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) ⭐ 1.8k · [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) ⭐ 871 · [rclnodejs](https://github.com/RobotWebTools/rclnodejs) ⭐ 448
+[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) ⭐ 127.7k · [argo-cd](https://github.com/argoproj/argo-cd) ⭐ 24.2k · [kops](https://github.com/kubernetes/kops) ⭐ 16.7k · [goreleaser](https://github.com/goreleaser/goreleaser) ⭐ 16k · [cert-manager](https://github.com/cert-manager/cert-manager) ⭐ 14.1k · [external-dns](https://github.com/kubernetes-sigs/external-dns) ⭐ 9.1k · [actions-runner-controller](https://github.com/actions/actions-runner-controller) ⭐ 6.5k · [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) ⭐ 2.6k · [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) ⭐ 1.8k · [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) ⭐ 871 · [rclnodejs](https://github.com/RobotWebTools/rclnodejs) ⭐ 448 · [prow](https://github.com/kubernetes-sigs/prow) ⭐ 322
 
 <details>
 <summary>All contributions</summary>
@@ -21,11 +21,13 @@ Contributions to the projects I operate in production, each fixing something I h
 | [kops](https://github.com/kubernetes/kops) | [Cert-manager: add feature gate options for webhook and cainjector](https://github.com/kubernetes/kops/pull/18787) |
 | [goreleaser](https://github.com/goreleaser/goreleaser) | [Force column.ui=never so tag output is not columnized](https://github.com/goreleaser/goreleaser/pull/7127) |
 | [cert-manager](https://github.com/cert-manager/cert-manager) | [Certificate-shim: do not mutate the cached object's labels](https://github.com/cert-manager/cert-manager/pull/9303); backported to [1.20](https://github.com/cert-manager/cert-manager/pull/9315), [1.21](https://github.com/cert-manager/cert-manager/pull/9314) |
+| [external-dns](https://github.com/kubernetes-sigs/external-dns) | [Drop AWS SDK dependency from ZoneTypeFilter](https://github.com/kubernetes-sigs/external-dns/pull/6707) |
 | [actions-runner-controller](https://github.com/actions/actions-runner-controller) | [Add default and per-controller max-concurrent-reconciles flags](https://github.com/actions/actions-runner-controller/pull/4626) |
 | [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) | [Validate save_map name against shell injection](https://github.com/SteveMacenski/slam_toolbox/pull/890) |
 | [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | [Surface TargetAllocator lookup and build errors on the collector CR](https://github.com/open-telemetry/opentelemetry-operator/pull/5567) |
 | [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | [Harden operator and webhook securityContext: runAsNonRoot, drop ALL](https://github.com/kubernetes-sigs/security-profiles-operator/pull/3422) |
 | [rclnodejs](https://github.com/RobotWebTools/rclnodejs) | [Write generated/generator.json only after message generation completes](https://github.com/RobotWebTools/rclnodejs/pull/1595) |
+| [prow](https://github.com/kubernetes-sigs/prow) | [Exclude PR from subpool when its changed files cannot be fetched](https://github.com/kubernetes-sigs/prow/pull/930) |
 
 </details>
 
