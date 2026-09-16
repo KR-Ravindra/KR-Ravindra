@@ -27,6 +27,7 @@ Contributions to the projects I operate in production, each fixing something I h
 | [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) | [Fix map_start_at_dock & map_start_pose parsing](https://github.com/SteveMacenski/slam_toolbox/pull/892) |
 | [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) | [Validate save_map name against shell injection](https://github.com/SteveMacenski/slam_toolbox/pull/890) |
 | [client_java](https://github.com/prometheus/client_java) | [Drop +Inf bound from OpenTelemetry classic histogram boundaries](https://github.com/prometheus/client_java/pull/2458) |
+| [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | [Add enableServiceLinks to collector and target allocator pod specs](https://github.com/open-telemetry/opentelemetry-operator/pull/5585) |
 | [opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | [Surface TargetAllocator lookup and build errors on the collector CR](https://github.com/open-telemetry/opentelemetry-operator/pull/5567) |
 | [opentelemetry-go-contrib](https://github.com/open-telemetry/opentelemetry-go-contrib) | [Report Prometheus HTTP server errors in v0.2.0](https://github.com/open-telemetry/opentelemetry-go-contrib/pull/9653) |
 | [nativelink](https://github.com/TraceMachina/nativelink) | [Return an error when TlsClient cannot load CA root certificates](https://github.com/TraceMachina/nativelink/pull/2748) |
