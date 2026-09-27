@@ -24,6 +24,7 @@ Contributions to the projects I operate in production, each fixing something I h
 | [cert-manager](https://github.com/cert-manager/cert-manager) | [Certificate-shim: do not mutate the cached object's labels](https://github.com/cert-manager/cert-manager/pull/9303); backported to [1.20](https://github.com/cert-manager/cert-manager/pull/9315), [1.21](https://github.com/cert-manager/cert-manager/pull/9314) |
 | [buildkit](https://github.com/moby/buildkit) | [Reject --chown by name with --link at parse time](https://github.com/moby/buildkit/pull/7134) |
 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | [Drop AWS SDK dependency from ZoneTypeFilter](https://github.com/kubernetes-sigs/external-dns/pull/6707) |
+| [external-dns](https://github.com/kubernetes-sigs/external-dns) | [Let a hostname annotation suppress the listener fallback](https://github.com/kubernetes-sigs/external-dns/pull/6746) |
 | [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [Fix data race in SSE stream handlers when the client disconnects early](https://github.com/woodpecker-ci/woodpecker/pull/7139) |
 | [actions-runner-controller](https://github.com/actions/actions-runner-controller) | [Add default and per-controller max-concurrent-reconciles flags](https://github.com/actions/actions-runner-controller/pull/4626) |
 | [actions-runner-controller](https://github.com/actions/actions-runner-controller) | [Document which listenerMetrics example labels are not exposed by default](https://github.com/actions/actions-runner-controller/pull/4633) |
