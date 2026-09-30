@@ -55,6 +55,7 @@ Contributions to the projects I operate in production, each fixing something I h
 | [rclnodejs](https://github.com/RobotWebTools/rclnodejs) | [Write generated/generator.json only after message generation completes](https://github.com/RobotWebTools/rclnodejs/pull/1595) |
 | [coroot-node-agent](https://github.com/coroot/coroot-node-agent) | [Report missing BPF tracing program types clearly](https://github.com/coroot/coroot-node-agent/pull/367) |
 | [amazon.aws](https://github.com/ansible-collections/amazon.aws) | [Rds_cluster - fix final_snapshot_identifier dropped on cluster deletion](https://github.com/ansible-collections/amazon.aws/pull/3084) |
+| [amazon.aws](https://github.com/ansible-collections/amazon.aws) | [\[stable-11\] rds_cluster - fix final_snapshot_identifier dropped on cluster deletion](https://github.com/ansible-collections/amazon.aws/pull/3137) |
 | [prow](https://github.com/kubernetes-sigs/prow) | [Exclude PR from subpool when its changed files cannot be fetched](https://github.com/kubernetes-sigs/prow/pull/930) |
 
 </details>
