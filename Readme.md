@@ -17,6 +17,7 @@ Contributions to the projects I operate in production, each fixing something I h
 | Project | Contribution |
 |---|---|
 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | [Fix ResourceFieldSelector.Divisor doc: unset or 0 means unscaled](https://github.com/kubernetes/kubernetes/pull/141997) |
+| [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | [HPA: compute resource utilization ratio without int64 overflow](https://github.com/kubernetes/kubernetes/pull/142192) |
 | [mlflow](https://github.com/mlflow/mlflow) | [Reject scheme-less relative workspace `default_artifact_root`](https://github.com/mlflow/mlflow/pull/25700) |
 | [argo-cd](https://github.com/argoproj/argo-cd) | [Do not pass --force to server-side apply](https://github.com/argoproj/argo-cd/pull/29626) |
 | [kops](https://github.com/kubernetes/kops) | [Cert-manager: add feature gate options for webhook and cainjector](https://github.com/kubernetes/kops/pull/18787) |
