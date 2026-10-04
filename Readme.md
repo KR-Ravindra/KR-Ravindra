@@ -28,6 +28,7 @@ Contributions to the projects I operate in production, each fixing something I h
 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | [Drop AWS SDK dependency from ZoneTypeFilter](https://github.com/kubernetes-sigs/external-dns/pull/6707) |
 | [external-dns](https://github.com/kubernetes-sigs/external-dns) | [Let a hostname annotation suppress the listener fallback](https://github.com/kubernetes-sigs/external-dns/pull/6746) |
 | [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [Fix data race in SSE stream handlers when the client disconnects early](https://github.com/woodpecker-ci/woodpecker/pull/7139) |
+| [woodpecker](https://github.com/woodpecker-ci/woodpecker) | [Ignore GitLab rejecting a commit status transition](https://github.com/woodpecker-ci/woodpecker/pull/7217) |
 | [external-secrets](https://github.com/external-secrets/external-secrets) | [Preserve environment definition on PushSecret](https://github.com/external-secrets/external-secrets/pull/6933) |
 | [actions-runner-controller](https://github.com/actions/actions-runner-controller) | [Add default and per-controller max-concurrent-reconciles flags](https://github.com/actions/actions-runner-controller/pull/4626) |
 | [actions-runner-controller](https://github.com/actions/actions-runner-controller) | [Document which listenerMetrics example labels are not exposed by default](https://github.com/actions/actions-runner-controller/pull/4633) |
