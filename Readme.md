@@ -69,6 +69,7 @@ I work with AI agents to find, fix and test these, so fixes reach upstream in da
 | [amazon.aws](https://github.com/ansible-collections/amazon.aws) | [\[stable-11\] rds_cluster - fix final_snapshot_identifier dropped on cluster deletion](https://github.com/ansible-collections/amazon.aws/pull/3137) |
 | [percona-postgresql-operator](https://github.com/percona/percona-postgresql-operator) | [K8SPG-1099 clear inner PostgresCluster standby when spec.standby removed](https://github.com/percona/percona-postgresql-operator/pull/1823) |
 | [modflow6](https://github.com/MODFLOW-ORG/modflow6) | [Error on multiple barriers on one cell connection](https://github.com/MODFLOW-ORG/modflow6/pull/2989) |
+| [snapscheduler](https://github.com/backube/snapscheduler) | [Accept multi-term h/m/s durations for retention expires](https://github.com/backube/snapscheduler/pull/1267) |
 | [snapscheduler](https://github.com/backube/snapscheduler) | [Delete unready snapshots first in count-based retention](https://github.com/backube/snapscheduler/pull/1247) |
 | [prow](https://github.com/kubernetes-sigs/prow) | [Exclude PR from subpool when its changed files cannot be fetched](https://github.com/kubernetes-sigs/prow/pull/930) |
 
