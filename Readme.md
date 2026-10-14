@@ -56,6 +56,7 @@ I work with AI agents to find, fix and test these, so fixes reach upstream in da
 | [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | [Harden operator and webhook securityContext: runAsNonRoot, drop ALL](https://github.com/kubernetes-sigs/security-profiles-operator/pull/3422) |
 | [security-profiles-operator](https://github.com/kubernetes-sigs/security-profiles-operator) | [Only render SPOd hostPath volumes of enabled features](https://github.com/kubernetes-sigs/security-profiles-operator/pull/3436) |
 | [rclcpp](https://github.com/ros2/rclcpp) | [Add const reference service callback signatures](https://github.com/ros2/rclcpp/pull/3269) |
+| [rclcpp](https://github.com/ros2/rclcpp) | [Support noexcept callables in function_traits](https://github.com/ros2/rclcpp/pull/3322) |
 | [aws-efs-csi-driver](https://github.com/kubernetes-sigs/aws-efs-csi-driver) | [Skip libwrap cleanup when efs state directory does not exist](https://github.com/kubernetes-sigs/aws-efs-csi-driver/pull/1962) |
 | [percona-xtradb-cluster-operator](https://github.com/percona/percona-xtradb-cluster-operator) | [K8SPXC-1919 Use MySQL defaults for replication channel retry count](https://github.com/percona/percona-xtradb-cluster-operator/pull/2549) |
 | [argocd-agent](https://github.com/argoproj-labs/argocd-agent) | [Process Delete event for app already deleted on the agent](https://github.com/argoproj-labs/argocd-agent/pull/1101) |
