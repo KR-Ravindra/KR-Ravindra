@@ -70,6 +70,7 @@ I work with AI agents to find, fix and test these, so fixes reach upstream in da
 | [coroot-node-agent](https://github.com/coroot/coroot-node-agent) | [Report missing BPF tracing program types clearly](https://github.com/coroot/coroot-node-agent/pull/367) |
 | [amazon.aws](https://github.com/ansible-collections/amazon.aws) | [Rds_cluster - fix final_snapshot_identifier dropped on cluster deletion](https://github.com/ansible-collections/amazon.aws/pull/3084) |
 | [amazon.aws](https://github.com/ansible-collections/amazon.aws) | [\[stable-11\] rds_cluster - fix final_snapshot_identifier dropped on cluster deletion](https://github.com/ansible-collections/amazon.aws/pull/3137) |
+| [longhorn-engine](https://github.com/longhorn/longhorn-engine) | [Persist snapshot's own name in its disk meta file](https://github.com/longhorn/longhorn-engine/pull/2014) |
 | [longhorn-engine](https://github.com/longhorn/longhorn-engine) | [Record creation time for restored and cloned snapshots](https://github.com/longhorn/longhorn-engine/pull/2067) |
 | [percona-postgresql-operator](https://github.com/percona/percona-postgresql-operator) | [K8SPG-1099 clear inner PostgresCluster standby when spec.standby removed](https://github.com/percona/percona-postgresql-operator/pull/1823) |
 | [modflow6](https://github.com/MODFLOW-ORG/modflow6) | [Error on multiple barriers on one cell connection](https://github.com/MODFLOW-ORG/modflow6/pull/2989) |
