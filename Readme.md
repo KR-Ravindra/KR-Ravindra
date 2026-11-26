@@ -3,12 +3,6 @@
 **DevOps · MLOps · AIOps platform engineer.** I run Kubernetes for a fleet of robots, the CI and GPU platform behind it, and the ML training and inference pipelines on top, and I fix what breaks along the way in the open-source tools we depend on.
 
 **Golden Kubestronaut** (every CNCF and Linux Foundation cloud-native certification) 
-<a href="https://certdirectory.io/profile/ravindra-kathi?utm_source=github&utm_medium=readme">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://certdirectory.io/badge/ravindra-kathi.svg?style=card&theme=dark">
-    <img alt="Ravindra Kathi on CertDirectory" src="https://certdirectory.io/badge/ravindra-kathi.svg?style=card">
-  </picture>
-</a>
 
 ## Open source
 
